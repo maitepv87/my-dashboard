@@ -7,7 +7,7 @@ const menuItems = [
     path: "/dashboard/main",
     icon: <IoBrowsersOutline size={40} />,
     title: "Dashboard",
-    subTitle: "Visualizacion",
+    subTitle: "Visualization",
   },
   {
     path: "/dashboard/counter",
