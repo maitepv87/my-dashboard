@@ -10,7 +10,7 @@ export const CartCounter = ({ value = 0 }: Props) => {
   const [count, setCount] = useState(value);
 
   return (
-    <div>
+    <>
       <span className="text-9xl">{count}</span>
 
       <div className="flex">
@@ -28,6 +28,6 @@ export const CartCounter = ({ value = 0 }: Props) => {
           -1
         </button>
       </div>
-    </div>
+    </>
   );
 };
